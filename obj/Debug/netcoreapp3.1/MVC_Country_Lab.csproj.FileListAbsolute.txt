@@ -1,0 +1,11 @@
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\obj\Debug\netcoreapp3.1\MVC_Country_Lab.csprojAssemblyReference.cache
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\obj\Debug\netcoreapp3.1\MVC_Country_Lab.AssemblyInfoInputs.cache
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\obj\Debug\netcoreapp3.1\MVC_Country_Lab.AssemblyInfo.cs
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.exe
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.deps.json
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.runtimeconfig.json
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.runtimeconfig.dev.json
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.dll
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\bin\Debug\netcoreapp3.1\MVC_Country_Lab.pdb
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\obj\Debug\netcoreapp3.1\MVC_Country_Lab.dll
+C:\Users\madis\Desktop\Stuff\Coding\Unit_3\MVC_Country_Lab\MVC_Country_Lab\obj\Debug\netcoreapp3.1\MVC_Country_Lab.pdb
