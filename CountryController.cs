@@ -13,31 +13,59 @@ namespace MVC_Country_Lab
             CountryDb = new List<Country>();
             CountryDb.Add(new Country()
             {
-                Name = "United States of America",
+                Name = "USA",
                 Continent = "North America",
-                Colors = {"Red", "White", "Blue"}
+                Colors = { "Red", "White", "Blue" }
             });
             CountryDb.Add(new Country()
             {
                 Name = "Canada",
                 Continent = "North America",
-                Colors = {"Red", "White"}
+                Colors = { "Red", "White" }
             });
             CountryDb.Add(new Country()
             {
                 Name = "Mexico",
                 Continent = "North America",
-                Colors = {"Green", "White", "Red"}
+                Colors = { "Red", "White", "Green" }
             });
         }
         public void WelcomeAction()
         {
-            Console.WriteLine("Hello, welcome to the country app.");
-            Console.WriteLine("Please select a country from the following list:");
-            Console.WriteLine("================================================\n");
-            
-            string input = Console.ReadLine();
+            Country c = new Country();
+            CountryListView clv = new CountryListView();
+            CountryView cv = new CountryView();
 
+            Console.WriteLine("Hello! Welcome to the Country App.");
+            Console.WriteLine("Please select a country by index from the following list:");
+            Console.WriteLine("=========================================================");
+            clv.Display();
+            Console.WriteLine("=========================================================");
+
+            string select = Console.ReadLine().Trim();
+
+            if (select == "0")
+            {
+                cv.Display(CountryDb[0]);
+            }
+            else if(select == "1")
+            {
+                int i = int.Parse(select);
+                CountryAction(c);
+            }
+            else if(select == "2")
+            {
+                int i = int.Parse(select);
+                cv.Display(c);
+            }
+            else
+            {
+                Console.WriteLine("Invalid repsonse, please try again.");
+                Console.WriteLine("Press enter to continue.");
+                Console.ReadLine();
+                Console.Clear();
+                WelcomeAction();
+            }
             Continue();
         }
         public void Continue()

@@ -10,9 +10,11 @@ namespace MVC_Country_Lab
         
         public void Display(Country c)
         {
-            Console.WriteLine($"Name: {c.Name}");
-            Console.WriteLine($"Continent: {c.Continent}");
-            Console.WriteLine($"Color: {c.Colors}");
+            DisplayCountry = new Country();
+
+            Console.WriteLine("Name: " + c.Name);
+            Console.WriteLine("Continent: " + c.Continent);
+            Console.WriteLine("Colors: " + c.Colors);
         }
     }
 }

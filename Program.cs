@@ -6,8 +6,8 @@ namespace MVC_Country_Lab
     {
         static void Main(string[] args)
         {
-            CountryController c = new CountryController();
-            c.WelcomeAction();
+            CountryController cc = new CountryController();
+            cc.WelcomeAction();
         }
     }
 }
