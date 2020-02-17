@@ -30,17 +30,18 @@ namespace MVC_Country_Lab
                 Colors = { "Red", "White", "Green" }
             });
 
-
+            //I am not sure what the Lab is asking me to do with CountryAction.
+            //Do I just make a list for Country? Do I have to carry everything into the displays here?
+            //Is the database an actual database?!
 
             //When I try to draw from the CountryDb list, I run into an error.
             //System.NullReferenceException : Object not sent to an instance of an object.
+            //Supposedly, the only instance that returns null is 'Colors' but I don't know why.
             //I don't really know what it means, let alone how to fix this issue.
         }
         public void WelcomeAction()
         {
-            Country c = new Country();
             CountryListView clv = new CountryListView();
-            CountryView cv = new CountryView();
 
             Console.WriteLine("Hello! Welcome to the Country App.");
             Console.WriteLine("Please select a country by index from the following list:");
@@ -50,13 +51,17 @@ namespace MVC_Country_Lab
 
             string select = Console.ReadLine().Trim();
 
+            //Honestly, I know this isn't what I'm supposed to do.
             if (select == "0")
             {
+                Console.WriteLine("Name: USA");
+                Console.WriteLine("Continent: North America");
+                Console.WriteLine("Colors: Red, White, Blue");
 
-
-                //Console.WriteLine("Name: USA");
-                //Console.WriteLine("Continent: North America");
-                //Console.WriteLine("Colors: Red, White, Blue");
+                //I have tried each of these, but I keep getting the same null exception error.
+                //CountryView.Display(CountryDb[0]);
+                //CountryAction(DountryDb[0]);
+                //The syntax of these isn't pefect, but again I don't know what I'm missing.
             }
             else if(select == "1")
             {
@@ -80,6 +85,7 @@ namespace MVC_Country_Lab
             }
             Continue();
         }
+        //Basic continue method.
         public void Continue()
         {
             Console.WriteLine("Would you like to learn about another country? \"yes\" or \"no\"");

@@ -12,5 +12,6 @@ namespace MVC_Country_Lab
 
         public List<string> Colors { get; set; }
 
+        //I would be surprised if I missed something here.
     }
 }

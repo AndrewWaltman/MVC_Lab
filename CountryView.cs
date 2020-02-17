@@ -10,6 +10,8 @@ namespace MVC_Country_Lab
         
         public void Display(Country c)
         {
+            //I THINK this would be right, but I'm not sure.
+
             DisplayCountry = new Country();
 
             Console.WriteLine("Name: " + c.Name);
