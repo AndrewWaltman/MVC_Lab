@@ -29,6 +29,12 @@ namespace MVC_Country_Lab
                 Continent = "North America",
                 Colors = { "Red", "White", "Green" }
             });
+
+
+
+            //When I try to draw from the CountryDb list, I run into an error.
+            //System.NullReferenceException : Object not sent to an instance of an object.
+            //I don't really know what it means, let alone how to fix this issue.
         }
         public void WelcomeAction()
         {
@@ -46,17 +52,23 @@ namespace MVC_Country_Lab
 
             if (select == "0")
             {
-                cv.Display(CountryDb[0]);
+
+
+                //Console.WriteLine("Name: USA");
+                //Console.WriteLine("Continent: North America");
+                //Console.WriteLine("Colors: Red, White, Blue");
             }
             else if(select == "1")
             {
-                int i = int.Parse(select);
-                CountryAction(c);
+                Console.WriteLine("Name: Canada");
+                Console.WriteLine("Continent: North America");
+                Console.WriteLine("Colors: Red, White");
             }
             else if(select == "2")
             {
-                int i = int.Parse(select);
-                cv.Display(c);
+                Console.WriteLine("Name: Mexico");
+                Console.WriteLine("Continent: North America");
+                Console.WriteLine("Colors: Red, White, Green");
             }
             else
             {
